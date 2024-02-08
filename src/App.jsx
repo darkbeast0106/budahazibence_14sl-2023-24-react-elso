@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Header />
-      <Content />
-      <Footer />
+      <Content count={20}/>
+      <Footer name='Budaházi Bence' link='https://github.com/darkbeast0106/budahazibence_14sl-2023-24-react-elso'/>
     </>
   )
 }
